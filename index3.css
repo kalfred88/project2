@@ -42,7 +42,7 @@
     width: 118px;
 }
 
-#box1 .desc {
+.box :first-child {
     width: 50%;
     float: left;
     padding-left: 200px;

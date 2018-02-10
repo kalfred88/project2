@@ -1,15 +1,8 @@
 .sav {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.box {
-    width: 60%;
-    min-width: 500px;
-    border: 15px;
-    padding: 15px;
-    margin: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
 
 .sav:nth-of-type(odd) {
@@ -20,26 +13,35 @@
     background-color: #21728f;
 }
 
-#gallery {
+.box {
+    width: 60%;
+    min-width: 500px;
+    border: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.kepek {
     float: right;
     padding: 0px 22px 19px 33px;
     background-color: white;
-    margin: 42px;
 }
 
-#gallery>* {
+.kepek>* {
     display: block;
     margin: 0;
     padding: 0;
     line-height: normal;
 }
 
-#gallery img {
+.kepek img {
     margin: 20px;
     width: 118px;
 }
 
-#box1 .desc {
+.szoveg {
     width: 50%;
     float: left;
     padding-left: 200px;
@@ -52,13 +54,13 @@
     margin: 0;
 }
 
-.mail-content {
+.e-mail {
     margin: auto;
     text-align: center;
     color: #ffffff;
 }
 
-#download {
+.download {
     margin: auto;
     text-align: center;
     color: #000000;
@@ -80,7 +82,7 @@ p {
     color: #21728f;
 }
 
-.photos {
+.kepek {
     color: #7f7f7f;
     background-color: #000000;
     text-align: center;
@@ -153,5 +155,5 @@ p {
 }
 
 #socialmedia {
-    text-align: center;
+    text-align: end;
 }
