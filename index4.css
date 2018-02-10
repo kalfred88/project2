@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .sav {
     width: 100%;
     padding: 0px;
@@ -14,38 +19,48 @@
 }
 
 .box {
-    width: 60%;
+    width: 50%;
     min-width: 500px;
     border: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 120px 0;
     margin: auto;
     text-align: center;
 }
 
 .kepek {
     float: right;
-    padding: 0px 22px 19px 33px;
-    background-color: white;
+    padding: 6px;
+    padding-top: 0px;
+    color: #7f7f7f;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #7f7f7f;
+    box-shadow: 0 3px 6px 3px #7f7f7f;
 }
 
 .kepek>* {
     display: block;
-    margin: 0;
     padding: 0;
     line-height: normal;
 }
 
 .kepek img {
-    margin: 20px;
-    width: 118px;
+    margin: 7px;
+    width: 160px;
+}
+
+.photos {
+    background-color: #000000;
+    padding: 5px;
+    font-size: 10px;
 }
 
 .szoveg {
     width: 50%;
     float: left;
-    padding-left: 200px;
     padding-top: 80px;
+    text-align: left;
 }
 
 .clear {
@@ -69,6 +84,7 @@
 h2,
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
 }
 
 p {
@@ -82,14 +98,6 @@ p {
     color: #21728f;
 }
 
-.kepek {
-    color: #7f7f7f;
-    background-color: #000000;
-    text-align: center;
-    font-size: 15px;
-    height: 25px;
-}
-
 #white {
     color: #ffffff;
 }
@@ -101,8 +109,8 @@ p {
     border-bottom-left-radius: 18px;
     border: none;
     padding: 5px;
-    width: 300px;
-    margin: auto;
+    width: 320px;
+    margin: -3px;
 }
 
 #send {
@@ -156,4 +164,22 @@ p {
 
 #socialmedia {
     text-align: end;
+    padding-top: 12px;
+}
+
+#footer .box {
+    height: 40px;
+    padding: 0;
+}
+
+#footer {
+    background-color: white;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
 }
