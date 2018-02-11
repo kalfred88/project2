@@ -63,6 +63,11 @@ body {
     text-align: left;
 }
 
+span {
+    text-decoration: underline;
+    color: #21728f;
+}
+
 .clear {
     clear: both;
     padding: 0;
@@ -102,13 +107,19 @@ p {
     color: #ffffff;
 }
 
+#white1 {
+    color: #ffffff;
+}
+
 #mail-address {
     color: #7f7f7f;
     font-family: 'Nunito', sans-serif;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
     border: none;
-    padding: 5px;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
     width: 320px;
     margin: -3px;
 }
@@ -120,19 +131,24 @@ p {
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
     border: none;
-    padding: 5px;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
     width: 100px;
 }
 
-#IOS,
-#Android {
+.downloadnow {
     color: #ffffff;
     background-color: #21728f;
     font-family: 'Nunito', sans-serif;
     border-radius: 18px;
     border: none;
-    padding: 7px;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
     width: 170px;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .fa {
