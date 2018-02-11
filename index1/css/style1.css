@@ -128,8 +128,9 @@ table {
 }
 
 .right2 {
+    box-sizing: border-box;
     position: absolute;
     width: 500px;
-    right: 70px;
+    left: 800px;
     top: 80px;
 }
