@@ -51,7 +51,7 @@ textarea {
 }
 
 .box2 label {
-    display: inline-block;
+    display: inline;
 }
 
 textarea {
@@ -73,18 +73,18 @@ textarea {
 
 .box2 p:first-child {
     font-weight: 900;
-    margin: 5px 0 0 0;
+    margin: 5px 0 15px 0;
     font-size: medium;
 }
 
 .contact {
     margin: 0;
-    display: inline;
+    display: inline-block;
 }
 
 p {
     border: 0;
-    margin: 40px 0 0 0;
+    margin: 0 0 10px 0;
     font-size: small;
 }
 
@@ -94,19 +94,28 @@ a {
 }
 
 footer {
+    width: 100%;
+    border-top: 2px solid #d3d3d3;
+    bottom: 0;
     float: left;
+}
+
+.footer-container {
     width: 60%;
-    border: 2px solid aqua;
-    position: relative;
     margin: 0 auto;
+    position: relative;
 }
 
-footer div:first-child {
-    display: inline;
+.footer-container div:first-child {
     float: left;
+    color: #d3d3d3;
 }
 
-footer div:last-child {
-    display: inline;
+.footer-container div:last-child {
     float: right;
+    color: #d3d3d3;
+}
+
+.fab {
+    color: #d3d3d3;
 }
