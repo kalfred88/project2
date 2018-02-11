@@ -116,6 +116,10 @@ footer {
     color: #d3d3d3;
 }
 
-.fab {
+.fa-twitter {
     color: #d3d3d3;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
 }
