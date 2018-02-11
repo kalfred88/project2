@@ -43,7 +43,7 @@ p {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
@@ -58,7 +58,7 @@ p {
     float: left;
     margin: 0 auto;
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 500px;
     box-sizing: border-box;
     background: linear-gradient(to top right, rgb(75, 205, 227), rgb(1, 48, 78));
@@ -69,7 +69,7 @@ p {
     position: absolute;
     width: 550px;
     top: 164px;
-    left: 270px;
+    left: 350px;
 }
 
 .right {
@@ -78,7 +78,7 @@ p {
     width: 340px;
     height: 100%;
     top: 100px;
-    left: 550px;
+    left: 650px;
     color: white;
 }
 
@@ -90,7 +90,7 @@ p {
 
 .whitebackground {
     position: absolute;
-    width: 1200px;
+    width: 100%;
     float: left;
     top: 575px;
     background: white;
@@ -99,7 +99,7 @@ p {
 table {
     position: absolute;
     width: 700px;
-    left: 250px;
+    left: 350px;
 }
 
 .fa-cut,
@@ -112,7 +112,7 @@ table {
 
 .greybackground {
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 500px;
     float: left;
     top: 830px;
@@ -124,12 +124,12 @@ table {
     position: absolute;
     width: 300px;
     padding-top: 170px;
-    left: 250px;
+    left: 350px;
 }
 
 .right2 {
     position: absolute;
     width: 500px;
-    right: 0;
+    right: 70px;
     top: 80px;
 }
