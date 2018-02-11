@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg-img {
+    background-image: url("../img/pexels-photo-247421.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+div.blur {
+    height: 100%;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.middle {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    text-align: left;
+    color: white;
+    width: 500px;
+    transform: translate(0, -50%);
+    /*height: 200px;*/
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;*/

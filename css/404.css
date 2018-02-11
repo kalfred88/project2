@@ -1,0 +1,33 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.middle {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    /*height: 200px;*/
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p,
+a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
