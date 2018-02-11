@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.box1 {
+    position: relative;
+    float: left;
+    width: 72.5%;
+    /*height: 100%;*/
+    /*background: #b9ea45;*/
+}
+
+.box2 {
+    position: relative;
+    float: left;
+    width: 27.5%;
+    /*background: #b9ea45;*/
+}
+
+label,
+input,
+textarea {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    width: 93%;
+    position: relative;
+    display: block;
+    font-weight: 700;
+}
+
+.box2 label {
+    display: inline;
+}
+
+textarea {
+    height: 200px;
+}
+
+#button {
+    background: #21728F;
+    color: #fff;
+    height: 35px;
+    width: 14%;
+    border-radius: 70px;
+    border: 0;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.box2 p:first-child {
+    font-weight: 900;
+    margin: 5px 0 15px 0;
+    font-size: medium;
+}
+
+.contact {
+    margin: 0;
+    display: inline-block;
+}
+
+p {
+    border: 0;
+    margin: 0 0 10px 0;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    width: 100%;
+    border-top: 2px solid #d3d3d3;
+    bottom: 0;
+    float: left;
+}
+
+.footer-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-container div:first-child {
+    float: left;
+    color: #d3d3d3;
+}
+
+.footer-container div:last-child {
+    float: right;
+    color: #d3d3d3;
+}
+
+.fa-twitter {
+    color: #d3d3d3;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+}
