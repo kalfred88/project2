@@ -1,52 +1,71 @@
-#container {
-    min-width: 500px;
-    width: 70%;
-    margin: auto;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sav {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.sav:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.sav:nth-of-type(even) {
+    background-color: #21728f;
 }
 
 .box {
-    border: 1px solid #838383;
-    padding: 10px;
-    margin: 0;
-    background: #ffffff;
+    width: 50%;
+    min-width: 500px;
+    border: 30px;
+    padding: 120px 0;
+    margin: auto;
+    text-align: center;
 }
 
-.box:nth-of-type(odd) {
-    background-color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.box:nth-of-type(even) {
-    background-color: #21728f;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-#gallery {
+.kepek {
     float: right;
-    padding: 0px 22px 19px 33px;
-    background-color: white;
-    margin: 42px;
+    padding: 6px;
+    padding-top: 0px;
+    color: #7f7f7f;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #7f7f7f;
+    box-shadow: 0 3px 6px 3px #7f7f7f;
 }
 
-#gallery>* {
+.kepek>* {
     display: block;
-    margin: 0;
     padding: 0;
     line-height: normal;
 }
 
-#gallery img {
-    margin: 20px;
-    width: 118px;
+.kepek img {
+    margin: 7px;
+    width: 160px;
 }
 
-.box :first-child {
+.photos {
+    background-color: #000000;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.szoveg {
     width: 50%;
     float: left;
-    padding-left: 200px;
     padding-top: 80px;
+    text-align: left;
+}
+
+span {
+    text-decoration: underline;
+    color: #21728f;
 }
 
 .clear {
@@ -55,13 +74,13 @@
     margin: 0;
 }
 
-.mail-content {
+.e-mail {
     margin: auto;
     text-align: center;
     color: #ffffff;
 }
 
-#download {
+.download {
     margin: auto;
     text-align: center;
     color: #000000;
@@ -70,6 +89,7 @@
 h2,
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
 }
 
 p {
@@ -83,15 +103,11 @@ p {
     color: #21728f;
 }
 
-.photos {
-    color: #7f7f7f;
-    background-color: #000000;
-    text-align: center;
-    font-size: 15px;
-    height: 25px;
+#white {
+    color: #ffffff;
 }
 
-#white {
+#white1 {
     color: #ffffff;
 }
 
@@ -101,9 +117,11 @@ p {
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
     border: none;
-    padding: 5px;
-    width: 300px;
-    margin: auto;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 320px;
+    margin: -3px;
 }
 
 #send {
@@ -113,19 +131,24 @@ p {
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
     border: none;
-    padding: 5px;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
     width: 100px;
 }
 
-#IOS,
-#Android {
+.downloadnow {
     color: #ffffff;
     background-color: #21728f;
     font-family: 'Nunito', sans-serif;
     border-radius: 18px;
     border: none;
-    padding: 7px;
+    padding: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
     width: 170px;
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .fa {
@@ -156,5 +179,23 @@ p {
 }
 
 #socialmedia {
-    text-align: center;
+    text-align: end;
+    padding-top: 12px;
+}
+
+#footer .box {
+    height: 40px;
+    padding: 0;
+}
+
+#footer {
+    background-color: white;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
 }
