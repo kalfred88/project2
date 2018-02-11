@@ -42,15 +42,14 @@ body {
     background-image: url(https://images.pexels.com/photos/247421/pexels-photo-247421.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
 }
 
-.second-inner-trans {
+#sec-inn-trans {
     width: 100%;
     height: 250px;
-    background: blue;
-    z-index: 1;
-    position: absolute;
+    margin: 0;
+    background: rgba(32, 113, 140, 0.6)
 }
 
-.second-inner {
+#second-inner {
     width: 400px;
     height: 250px;
     margin: auto;
@@ -60,7 +59,7 @@ body {
     margin-top: 0;
     width: 100%;
     height: 300px;
-    background: lightgray;
+    background: rgb(231, 230, 230);
 }
 
 .third-inner {
@@ -78,7 +77,7 @@ body {
 
 #text1 {
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 #head2 {
@@ -114,7 +113,7 @@ body {
 
 #text3 {
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     margin-top: 100px;
 }
