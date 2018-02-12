@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+
+p,
+div,
+label,
+input {
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.box1 {
+    position: relative;
+    float: left;
+    width: 72.5%;
+}
+
+.box2 {
+    position: relative;
+    float: left;
+    width: 27.5%;
+}
+
+label,
+input,
+textarea {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    width: 93%;
+    position: relative;
+    display: block;
+    font-weight: 700;
+}
+
+.box2 label {
+    display: inline;
+}
+
+textarea {
+    height: 200px;
+}
+
+#button {
+    background: #21728F;
+    color: #fff;
+    height: 35px;
+    width: 14%;
+    border-radius: 70px;
+    border: 0;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.box2 p:first-child {
+    font-weight: 900;
+    margin: 5px 0 15px 0;
+    font-size: medium;
+}
+
+.contact {
+    margin: 0;
+    display: inline-block;
+}
+
+p {
+    border: 0;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Header css*/
+
+header {
+    height: 500px;
+}
+
+header p,
+h1,
+strong {
+    color: #fff;
+}
+
+.app {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.download {
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.download:hover {
+    cursor: pointer;
+}
+
+.phone {
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    background: linear-gradient(to top right, rgb(75, 205, 227), rgb(1, 48, 78));
+}
+
+.left {
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    top: 64px;
+    left: 350px;
+}
+
+.right {
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 100%;
+    top: 64px;
+    left: 650px;
+    color: white;
+}
+
+.navbar {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    color: #fff;
+}
+
+.navbar a {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.download {
+    height: 25px;
+    background: white;
+    color: rgb(47, 110, 154);
+}
+
+/*Footer css*/
+
+footer {
+    width: 100%;
+    border-top: 2px solid #d3d3d3;
+    bottom: 0;
+    float: left;
+}
+
+.footer-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-container div:first-child {
+    float: left;
+    color: #d3d3d3;
+}
+
+.footer-container div:last-child {
+    float: right;
+    color: #d3d3d3;
+}
+
+.fa {
+    font-size: 10px;
+    text-align: right;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+.fa-facebook:hover {
+    color: #627AAD;
+}
+
+.fa-twitter:hover {
+    color: #77BDF1;
+}
+
+.fa-youtube:hover {
+    color: #C93333;
+}
+
+.fa-dribbble:hover {
+    color: #EE70A1;
+}
+
+.fa-vimeo:hover {
+    color: #6AC9FF;
+}
