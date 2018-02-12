@@ -233,11 +233,13 @@ table {
     font-size: 30px;
     text-transform: capitalize;
     font-weight: bold;
+    color: #000;
 }
 
 #text1 {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
+    color: #000;
 }
 
 #head2 {
@@ -269,6 +271,7 @@ table {
     margin-top: 0;
     position: relative;
     top: 22%;
+    color: #000;
 }
 
 #text3 {
@@ -276,6 +279,7 @@ table {
     font-size: 12px;
     text-align: center;
     margin-top: 100px;
+    color: #000;
 }
 
 .sav {
@@ -336,6 +340,10 @@ table {
     float: left;
     padding-top: 80px;
     text-align: left;
+}
+
+.szoveg p {
+    color: #000;
 }
 
 span {
