@@ -9,24 +9,26 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
+    display: block;
 }
 
 .first-inner {
     width: 400px;
     height: 300px;
-    float: right;
-    position: relative;
-    top: 20%;
-    right: 25%;
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    left: 50%;
 }
 
 .first-pic {
     width: 400px;
     height: 400px;
-    float: left;
-    position: relative;
-    top: 10%;
-    left: 20%;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 22%;
 }
 
 #pic {
@@ -73,11 +75,17 @@ body {
     font-size: 30px;
     text-transform: capitalize;
     font-weight: bold;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
 }
 
 #text1 {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
 }
 
 #head2 {

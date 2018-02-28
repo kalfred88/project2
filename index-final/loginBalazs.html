@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page</title>
+    <link rel="stylesheet" href="css/loginBalazs.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <i class="fas fa-camera-retro" id="camera"></i>
+        <i class="fas fa-user" id="user"></i>
+        <i class="fas fa-lock" id="lock"></i>
+        <form action="" class="login-container" id="form">
+            <p>
+                <input type="text" name="username" placeholder="Username" id="username">
+            </p>
+            <br>
+            <p>
+                <input type="password" name="password" placeholder="************" id="password">
+            </p>
+            <br>
+            <span id="error"></span>
+            <span id="error2"></span>
+            <span id="success"></span>
+            <input type="button" name="submit" value="Login" id="submit" onclick="calc()">
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox">Remember me
+            <a href="login.html" id="forgot" onclick="calc2()">Forgot password?</a>
+        </form>
+        <p id="copyright">Copyrigth &#169; 2018 Your Brand Name, Inc</p>
+    </div>
+
+    <script src="js/fontawesome-all.js"></script>
+    <script src="js/loginBalazs.js"></script>
+</body>
+
+</html>
