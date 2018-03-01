@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background: repeating-linear-gradient(to bottom right, royalblue, rgb(0, 255, 149));
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.inner-container {
+    border: 2px #fff solid;
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+form {
+    position: relative;
+    margin: 50px auto;
+    height: 300px;
+    width: 300px;
+}
+
+.box {
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.button {
+    background: orange;
+    color: #eee;
+}
+
+#najo,
+input#remember,
+a {
+    font-size: 10px;
+    size: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    top: -40px;
+    position: relative;
+}

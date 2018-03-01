@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/styleloginform.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+    <title> Login </title>
+</head>
+
+<body>
+
+
+    <div class="innerCont">
+        <div class="relativ-div">
+
+            <div class="circle">
+                <i class="fas fa-camera"></i>
+            </div>
+
+
+            <form action="get">
+
+                <i class="fas fa-user"></i>
+
+
+                <input type="text" name="userName" id="userName" placeholder="Username">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="••••••••">
+                <span id="success"></span>
+                <span id="error"></span>
+                <input type="button" value="LOGIN" onclick="funBelep()">
+
+                <div class="bottom">
+                    <input type="checkbox" checked name="checkbox" id="check">Remeber me
+                </div>
+                <a class="bottom" onclick="funForget()">Forgot Password?</a>
+
+            </form>
+
+
+
+
+
+        </div>
+        <p class="copyright">Copyright &#169; Your Brand Name, Inc.</p>
+
+    </div>
+    <script src="/js/loginpage-tomi.js"></script>
+</body>
+
+</html>

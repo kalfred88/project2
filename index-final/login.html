@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <title>Login form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <form action="belepes" method="post">
+                <div class="box">
+                    <label for="user" class="fas fa-user"></label>
+                    <input type="text" name="user" id="user" placeholder="Username">
+                </div>
+                <div class="box">
+                    <label for="password" class="fas fa-lock"></label>
+                    <input type="password" name="password" id="password" placeholder="********">
+                </div>
+                <span id="success"></span>
+                <span id="error"></span>
+                <input type="button" value="Login" class="box button" onclick="proba()">
+                <input type="checkbox" name="remember" id="remember">
+                <label id="najo" for="remember">Remember me</label>
+                <a id="forgot" onclick="newpass()" href="">Frorgot password?</a>
+            </form>
+        </div>
+    </div>
+    <footer> Copyright © 2018 Your Brand Name Inc.</footer>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
