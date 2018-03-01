@@ -73,7 +73,7 @@ function funBelep() {
                 var belep = users[i].email;
 
                 document.getElementById("success").innerHTML = `Belépve: ${belep}`
-                window.open('/adminpage-tomi.html')
+                window.open('adminpage-tomi.html')
                 count = 0;
             } else if (count < 3) {
                 document.querySelector("#error").innerHTML = "Rossz a felhasználóneved vagy jelszavad."
