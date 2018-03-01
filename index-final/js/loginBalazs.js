@@ -63,7 +63,7 @@ function calc() {
         } else if (users[i].email == username && users[i].password == password) {
             document.querySelector('#error').innerHTML = "";
             document.querySelector('#success').innerHTML = `Belépve: ${username}`;
-            window.location.assign("/Day12/indexBalazs.html");
+            window.location.assign("/project2/index-final/indexBalazs.html");
         }
     }
 }
