@@ -1,0 +1,113 @@
+body {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.76);
+    ;
+}
+
+.container {
+    width: 450px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.osszefogo {
+    float: left;
+    width: 450px;
+    position: fixed;
+    margin: 0 auto;
+    background: linear-gradient(to right, #73BBC7, #67ABCE, #2D93E7, #2980C5, #3D82AC, #7C9091)
+}
+
+.whiteborder {
+    position: absolute;
+    float: left;
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    left: 5%;
+    top: 130px;
+}
+
+.icon {
+    position: relative;
+    margin: 10% auto;
+    top: 40px;
+    height: 100px;
+    width: 100px;
+    background: rgba(45, 83, 119, 0.6);
+    border-radius: 50px;
+}
+
+.tablazat {
+    position: relative;
+    margin: 20% auto;
+}
+
+.szoveg {
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 320px;
+    text-align: middle;
+}
+
+#button {
+    width: 320px;
+    background: rgba(0, 89, 255, 0.897);
+    border: none;
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.alsoszoveg1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.alsoszoveg2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+}
+
+.fa-user,
+.fa-unlock-alt {
+    color: rgb(56, 55, 55);
+}
+
+.fa-camera {
+    position: relative;
+    top: 15%;
+    left: 15%;
+    font-size: 70px;
+    color: white;
+}
+
+#error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+#success {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+}

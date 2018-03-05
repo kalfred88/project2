@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/feladat.css">
+    <title>Login form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="osszefogo">
+            <div class="whiteborder"></div>
+            <div class="icon">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div class="inputs">
+                <table class="tablazat">
+                    <tr>
+                        <td>
+                            <i class="fas fa-user"></i>
+                        </td>
+                        <td colspan="2">
+                            <input type="text" class="username szoveg" name="username" id="username" placeholder="Username">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="fas fa-unlock-alt"></i>
+                        </td>
+                        <td colspan="2">
+                            <input type="password" class="password szoveg" name="password" id="password" placeholder="*********">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" id="error"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" id="success"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <input type="button" id="button" value="Login">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="alsoszoveg1">
+                            <input type="checkbox" checked> Remember me
+                        </td>
+                        <td id="fp" class="alsoszoveg2">
+                            Forgot Password?
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/feladat.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+
+</html>
